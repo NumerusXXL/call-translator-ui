@@ -1,0 +1,22 @@
+.translationCard {
+  cursor: pointer;
+  z-index: 999999;
+  bottom: 0;
+  transform: rotateX(180deg);
+  background-color: dimgray;
+}
+
+.backgroundDiv {
+  display: flex;
+  vertical-align: bottom;
+  transform: rotateX(180deg);
+  border-radius: 15px;
+  /*background-color: #1e1e1e;*/
+}
+
+.chatContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.chatContainer {
+}
